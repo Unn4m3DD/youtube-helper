@@ -1,6 +1,4 @@
-document.onload(() => {
-  document.getElementsByClassName("video-stream html5-main-video")[0].focus()
-})
+setTimeout(() => { try { document.getElementsByClassName("video-stream html5-main-video")[0].focus() } catch { } }, 1000)
 document.addEventListener('keydown', (e) => {
   if (e.key == "n") {
     document.getElementsByClassName("video-stream html5-main-video")[0].focus()
