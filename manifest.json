@@ -1,6 +1,6 @@
 {
     "name": "Youtube Helper",
-    "version": "1.1",
+    "version": "1.2",
     "description": "Keybinding maps for common youtube actions",
     "permissions": [
         "declarativeContent"
