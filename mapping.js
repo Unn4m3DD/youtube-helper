@@ -9,7 +9,7 @@ document.addEventListener('keydown', (e) => {
         ad[i].click()
       let banner = document.getElementsByClassName("ytp-ad-overlay-close-button")
       for (let i = 0; i < banner.length; i++)
-        banner[i].clik()
+        banner[i].click()
     }catch { }
   }
 });
